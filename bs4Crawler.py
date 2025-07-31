@@ -20,7 +20,6 @@ def crawl_naver_news_headlines_api():
         return jsonify({"error": "이 실습용 API는 네이버 뉴스만 크롤링 가넝~~"}), 400
     
 
-    print(f"크롤링 요청 잘 들어옴ㅇㅇ: {target_url}")
 
     headlines = []
     try:
